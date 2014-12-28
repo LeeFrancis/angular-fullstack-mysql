@@ -38,8 +38,8 @@ module.exports = function(app) {
       secret: config.secrets.session, 
       store: new MySQLStore({
         config: {
-            user: "beerigo",
-            password: "beer1g0", 
+            user: "",
+            password: "", 
             database: config.mysql.database
         }
       })
